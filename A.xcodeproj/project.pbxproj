@@ -15,7 +15,7 @@
 		A684781B1E836AD40059EC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A684781A1E836AD40059EC9E /* Assets.xcassets */; };
 		A684781E1E836AD40059EC9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A684781C1E836AD40059EC9E /* LaunchScreen.storyboard */; };
 		A68478281E836C500059EC9E /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68478271E836C500059EC9E /* AViewController.m */; };
-		A687484B1E83A4020057241B /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A687484A1E83A4020057241B /* Target_A.m */; };
+		A6B42B531E83AEC400D23163 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B42B521E83AEC400D23163 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		A684781F1E836AD40059EC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A68478261E836C500059EC9E /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		A68478271E836C500059EC9E /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		A68748491E83A4020057241B /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		A687484A1E83A4020057241B /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		A6B42B511E83AEC400D23163 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		A6B42B521E83AEC400D23163 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		B3DA708013553D23CD3AC3CA /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,6 @@
 		A684780D1E836AD40059EC9E /* A */ = {
 			isa = PBXGroup;
 			children = (
-				A68748481E83A3EE0057241B /* Target */,
 				A68478251E836C400059EC9E /* A */,
 				A68478111E836AD40059EC9E /* AppDelegate.h */,
 				A68478121E836AD40059EC9E /* AppDelegate.m */,
@@ -97,17 +96,18 @@
 		A68478251E836C400059EC9E /* A */ = {
 			isa = PBXGroup;
 			children = (
+				A6B42B501E83AEC400D23163 /* Target */,
 				A68478261E836C500059EC9E /* AViewController.h */,
 				A68478271E836C500059EC9E /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
 		};
-		A68748481E83A3EE0057241B /* Target */ = {
+		A6B42B501E83AEC400D23163 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				A68748491E83A4020057241B /* Target_A.h */,
-				A687484A1E83A4020057241B /* Target_A.m */,
+				A6B42B511E83AEC400D23163 /* Target_A.h */,
+				A6B42B521E83AEC400D23163 /* Target_A.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			files = (
 				A68478281E836C500059EC9E /* AViewController.m in Sources */,
 				A68478161E836AD40059EC9E /* ViewController.m in Sources */,
-				A687484B1E83A4020057241B /* Target_A.m in Sources */,
+				A6B42B531E83AEC400D23163 /* Target_A.m in Sources */,
 				A68478131E836AD40059EC9E /* AppDelegate.m in Sources */,
 				A68478101E836AD40059EC9E /* main.m in Sources */,
 			);
